@@ -1,0 +1,7 @@
+Binding for:
+com.wdullaer:swipeactionadapter:2.0.0
+
+Dependencies:
+
+swipeactionadapter-2.0.0.aar,    Path=C:\Users\Jason\.gradle\caches\modules-2\files-2.1\com.wdullaer\swipeactionadapter\2.0.0\60ef04bc0585b4b7af0470a3d91c76b39a250ebf\swipeactionadapter-2.0.0.aar
+	support-annotations-23.1.0.jar,    Path=C:\Users\Jason\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar
