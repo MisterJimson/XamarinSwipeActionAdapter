@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>XamarinSwipeActionAdapter</id>
+    <title>XamarinSwipeActionAdapter</title>
+    <summary>Xamarin.Android bindings for SwipeActionAdapter found here: 'https://github.com/wdullaer/SwipeActionAdapter'</summary>
+    <description>Xamarin.Android bindings for SwipeActionAdapter found here: 'https://github.com/wdullaer/SwipeActionAdapter'</description>
+    <version>1.0.0</version>
+    <authors>Jason Rai</authors>
+    <owners>Jason Rai</owners>
+    <projectUrl>https://github.com/MisterJimson/XamarinSwipeActionAdapter</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>android xamarin swipe list actions</tags>
+    <releaseNotes>
+      1.0.0
+      Initial Release
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="..\Binding_SwipeActionAdapter\bin\Release\Binding_SwipeActionAdapter*" target="lib\MonoAndroid10" />
+  </files>
+</package>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -63,12 +63,6 @@
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Binding_SwipeActionAdapter\Binding_SwipeActionAdapter.csproj">
-      <Project>{9e109423-39d8-42f2-a02d-eb03dc8e8139}</Project>
-      <Name>Binding_SwipeActionAdapter</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\layout\row_bg.axml" />
   </ItemGroup>
   <ItemGroup>
@@ -82,6 +76,12 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\row_bg_right_far.axml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Binding_SwipeActionAdapter\Binding_SwipeActionAdapter.csproj">
+      <Project>{9e109423-39d8-42f2-a02d-eb03dc8e8139}</Project>
+      <Name>Binding_SwipeActionAdapter</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
